@@ -25,10 +25,6 @@
        zmk,matrix_transform = &dual_2u_transform;
     };
 
-    &mt {
-        tapping-term-ms = <150>;
-    };
-
     behaviors {
         mo_sl: behavior_mo_sl {
             compatible = "zmk,behavior-hold-tap";
